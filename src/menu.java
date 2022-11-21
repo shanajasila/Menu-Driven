@@ -52,6 +52,16 @@ public class menu {
                         else {
                             System.out.println(a3+" not even");
                         }
+                    case 5:
+                        System.out.println("Enter the number");
+                        int a4=sc.nextInt();
+                        int temp=0;
+                        while (a4!=0){
+                           int n=a4%10;
+                           temp=temp*10+n;
+                           a4=a4/10;
+                        }
+                        System.out.println("Reverse of "+" is "+temp);
                 }
             }
     }
