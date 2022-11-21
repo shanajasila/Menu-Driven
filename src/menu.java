@@ -43,6 +43,15 @@ public class menu {
                             System.out.println(a2+" Is a prime number");
                         }
 
+                    case 4:
+                        System.out.println("Enter the number");
+                        int a3= sc.nextInt();
+                        if(a3%2==0){
+                            System.out.println(a3+" Is Even");
+                        }
+                        else {
+                            System.out.println(a3+" not even");
+                        }
                 }
             }
     }
