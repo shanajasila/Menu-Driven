@@ -17,6 +17,7 @@ public class menu {
                         int c= sc.nextInt();
                         int l=((a>b)?(a>c?a:c):(b>c?b:c));
                         System.out.println("The largest Number is: "+l);
+                        break;1
                     case 2:
                         System.out.println("\nEnter Three Numbers:");
                         int a1= sc.nextInt();
@@ -24,6 +25,7 @@ public class menu {
                         int c1= sc.nextInt();
                         int s=((a1<b1)?(a1<c1?a1:c1):(b1<c1?b1:c1));
                         System.out.println("The largest Number is: "+s);
+                        break;
                     case 3:
                         System.out.println("\nEnter a number");
                         int a2= sc.nextInt();
@@ -42,7 +44,7 @@ public class menu {
                         else{
                             System.out.println(a2+" Is a prime number");
                         }
-
+                        break;
                     case 4:
                         System.out.println("Enter the number");
                         int a3= sc.nextInt();
@@ -52,6 +54,7 @@ public class menu {
                         else {
                             System.out.println(a3+" not even");
                         }
+                        break;
                     case 5:
                         System.out.println("Enter the number");
                         int a4=sc.nextInt();
@@ -62,6 +65,11 @@ public class menu {
                            a4=a4/10;
                         }
                         System.out.println("Reverse of "+" is "+temp);
+                        break;
+                    case 6:
+                        System.exit(0);
+                    default:
+                        System.out.println("Please select from the menu");
                 }
             }
     }
