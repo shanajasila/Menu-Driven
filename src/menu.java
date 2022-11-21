@@ -16,6 +16,13 @@ public class menu {
                         int c= sc.nextInt();
                         int l=((a>b)?(a>c?a:c):(b>c?b:c));
                         System.out.println("The largest Number is: "+l);
+                    case 2:
+                        System.out.println("\nEnter Three Numbers:");
+                        int a1= sc.nextInt();
+                        int b1= sc.nextInt();
+                        int c1= sc.nextInt();
+                        int s=((a1<b1)?(a1<c1?a1:c1):(b1<c1?b1:c1));
+                        System.out.println("The largest Number is: "+s);
 
                 }
             }
